@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Oswald|Merriweather+Sans);
+* {
+font-size: 1em;
+padding: 0;
+margin: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+body {
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center;
+color: #E346FF;
+}
+
+h1 {
+text-align: center;
+font-size: 5rem;
+}
+form {
+width: 90%;
+margin: 0 auto;
+}
+.box {
+padding: 0.5rem;
+}
+label {
+display: inline;
+}
+input {
+display: inline-block;
+width: 100%;
+padding: 1rem;
+background-image: url(http://www.omgubuntu.co.uk/wp-content/uploads/2014/03/wallpaper_blog_post.jpg);
+}
+input:required:invalid, input:focus:invalid {
+background-image: url(http://www.omgubuntu.co.uk/wp-content/uploads/2014/03/wallpaper_blog_post.jpg);
+background-position: right top;
+background-repeat: no-repeat;
+-moz-box-shadow: none;
+}
+input:required:valid {
+background-image: url(http://www.omgubuntu.co.uk/wp-content/uploads/2014/03/wallpaper_blog_post.jpg);
+background-position: right top;
+background-repeat: no-repeat;
+}
+#masthead {
+background-image: url(http://www.omgubuntu.co.uk/wp-content/uploads/2014/03/wallpaper_blog_post.jpg);
+padding: 10rem 0;
+background-size: 100%;
+/*color: #fff;*/
+;
+}
+#btn {
+width: 100%;
+margin: auto;
+background-image: url(http://www.omgubuntu.co.uk/wp-content/uploads/2014/03/wallpaper_blog_post.jpg);
+}
+@media all and (min-width: 35rem) and (max-width: 60rem) {
+.box {
+float: left;
+width: 50%;
+}
+label {
+display: block;
+}
+input{
+	color:white;
+}
+#masthead {
+background-image: url(http://www.omgubuntu.co.uk/wp-content/uploads/2014/03/wallpaper_blog_post.jpg);
+}
+}
+@media all and (min-width:60rem) {
+label {
+display: inline-block;
+width: 110px;
+float: left;
+}
+.box {
+width: 50%;
+float: left;
+}
+input {
+width: 70%;
+display: inline-block;
+background-image: url(http://www.omgubuntu.co.uk/wp-content/uploads/2014/03/wallpaper_blog_post.jpg);
+}
+#masthead {
+background-image: url(http://www.omgubuntu.co.uk/wp-content/uploads/2014/03/wallpaper_blog_post.jpg);
+padding: 9rem;
+background-repeat: no-repeat;
+}
+}
